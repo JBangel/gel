@@ -1,0 +1,9 @@
+<html>
+<body>
+    <ul>
+        <% @result_list.each do |e| %>
+        <%= "#{e.id} - #{e.title}<br>#{e.desc}<br><br>" %>
+        <% end %>
+    </ul>
+</body>
+</html>
