@@ -1,9 +1,31 @@
-<html>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GenCon Event Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+</head>
+
+  <body>
+    <div class="container">
+
 <h1>GenCon Event List</h1>
 <p>This is a very limited search tool for the GenCon event list.</p>
 <p>Currently, you have to manually update the url to search.</p>
 <p>The format is:<br>gencon.falornan.com/events?[key]=[value]</p>
+<form>
+  
+</form>
 <p>The keys currently are:
     <ul>
         <li>id - Event ID - ex. EGM1349269</li>
@@ -17,5 +39,25 @@
 <p>For example:<br><a href="/gencon.falornan.com/events?id.fuzzy=134975">gencon.falornan.com/events?id.fuzzy=134975</a></p>
 <p>You can also get the full list by going to:<br>
     <a href="/gencon.falornan.com/events">gencon.falornan.com/events</a></p>
-</body>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
 </html>
