@@ -4,6 +4,8 @@ require './eventlist'
 eventlist = GenCon::EventList.load('tmp_dl.zip')
 search = %w{1346631 1345695 1346573 1346623 1347662}
 
+set :bind, '0.0.0.0'
+
 get '/' do
   erb :index
 end
