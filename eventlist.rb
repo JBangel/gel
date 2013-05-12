@@ -15,6 +15,8 @@ module GenCon
     def self.load(filename)
       Logging::Logger[self].info { "Loading the events list file"}
 
+      self.download if not File.exists? filename
+
       #new_el = self.new
       ef = GenCon::EventFile.new(filename)
       new.send(:events=, ef.events)
